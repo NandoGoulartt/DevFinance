@@ -1,0 +1,182 @@
+@charset "UTF-8";
+
+/* ============GLOBAL============*/
+
+*{
+    margin: 0%;
+}
+
+body, html{
+    margin: 0;
+    padding: 0;
+    background-color: #E5E5E5;
+    font-family: 'Pppins', sans-serif;
+}
+
+/* ============HEADER=========*/
+
+header{
+    display: flex;
+    background-color:  #2D4A22;
+    justify-content: center;
+    color: #fff;
+    height: 238px;
+}
+
+.TituloCabecalho{
+    position: relative;
+    display: flex;
+    font-weight: 100;
+    max-height: 30px;
+    top: 30%;
+    transform: translateY(-50%);
+    width: 300px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header h1{
+    font-weight: 100;
+}
+
+/* ==============MAIN============*/
+
+main{
+    max-width: 1000px;
+    margin: auto;
+    justify-content: center;
+    position: relative;
+    float: inline-start;
+    top: -90px;
+}
+
+.ContainerPrincpal{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ContainerInternoTopo{
+        height: 100px;
+        width: 25%;
+        margin-bottom: 30px;
+        padding: 20px;
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.445);
+        font-weight: lighter;
+        font-size: 12px;
+        color: #363f5fd5;
+
+}
+
+
+.NumeroCabecalho{
+    display: flex;
+    position: relative;
+
+
+    font-size: 36px;
+
+    
+}
+
+.ContainerExclusivoTopo{
+    color: #ffff;
+    background-color: rgb(18, 155, 18);
+}
+
+.TituloContainers{
+    background-color: transparent;
+    color: #363f5f;
+    font-weight: normal;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.TituloContainersTopo{
+    color: #ffff;
+}
+
+table{
+    border-spacing: 0 16px;
+    border-radius: 15px;
+    width: 100%;
+}
+
+td, th{
+    background-color: #ffff;
+    text-align: center;
+    padding: 15px;
+    border-bottom: 1px solid #E5E5E5;
+    
+}
+
+
+
+table tr td:first-child , table tr th:first-child{
+    border-radius: 5px 0 0 5px;
+}
+
+table tr td:last-child, table tr th:last-child{
+    border-radius: 0px 5px 5px 0px;
+}
+
+
+table tr:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.Despesas{
+    color: rgba(192, 20, 20, 0.781);
+}
+
+.Receitas{
+    color: rgba(0, 128, 0, 0.774);
+}
+
+
+.tituloContainerTop{
+    display: flex;
+    width: 90px;
+    margin: 0;
+    
+}
+
+.ImagemTop{
+    position: relative;
+    left: 200px;
+    top: -25px;
+}
+
+.botão{
+    width: 15px;
+    height: 12px;
+}
+button{
+    border: none;
+    background-color: transparent;
+    color: rgb(15, 187, 15);
+}
+
+
+/* ================FOOTER==========*/
+
+footer{
+
+    width: 100px;
+    margin: auto;
+    color: #aaaaaa;
+    font-size: 11px;
+    justify-content: center;
+}
+
+footer h2{
+    text-align: center;
+}
+
+
+img.logo{
+    padding-top: 5px;
+}
+
